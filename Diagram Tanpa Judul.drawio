@@ -1,9 +1,261 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="24.9.3">
   <diagram name="Halaman-1" id="o2LIw-Gq-k3EhrZwMoBI">
-    <mxGraphModel>
+    <mxGraphModel dx="1780" dy="1968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-123" value="Start" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="278" y="186" width="66" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-124" value="Input bilangan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="285" width="163" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-125" value="Bilangan % 2 == 0?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="222" y="384" width="178" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-126" value="Output: Bilangan GENAP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="51" y="635" width="234" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-127" value="Output: Bilangan GANJIL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="635" width="238" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-128" value="End" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="283" y="734" width="56" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-129" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-123" target="ThvgZsorsJqL3Nq1HmDI-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-124" target="ThvgZsorsJqL3Nq1HmDI-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-131" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-125" target="ThvgZsorsJqL3Nq1HmDI-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-132" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-125" target="ThvgZsorsJqL3Nq1HmDI-127">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-133" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.3;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-126" target="ThvgZsorsJqL3Nq1HmDI-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="709" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-134" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.3;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-127" target="ThvgZsorsJqL3Nq1HmDI-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="709" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-135" value="Mulai" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="290" y="804" width="69" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-136" value="Baca num" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="903" width="129" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-137" value="num mod 2 = 0?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="244" y="1002" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-138" value="Tampilkan Bilangan Genap" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="51" y="1236" width="249" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-139" value="Tampilkan Bilangan Ganjil" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1236" width="247" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-140" value="Selesai" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="285" y="1335" width="79" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-141" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-135" target="ThvgZsorsJqL3Nq1HmDI-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-136" target="ThvgZsorsJqL3Nq1HmDI-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-143" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-137" target="ThvgZsorsJqL3Nq1HmDI-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="176" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-144" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-137" target="ThvgZsorsJqL3Nq1HmDI-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.23;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-138" target="ThvgZsorsJqL3Nq1HmDI-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="176" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-146" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1.01;entryY=0.23;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-139" target="ThvgZsorsJqL3Nq1HmDI-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-147" value="Mulai" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="437" y="1405" width="99" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-148" value="Input bilangan pertama" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="377" y="1504" width="217" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-149" value="max = bilangan pertama" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1771" width="234" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-150" value="min = bilangan pertama" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1870" width="231" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-151" value="i = 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1969" width="91" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-152" value="i &amp;lt;= 10" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="427" y="2068" width="117" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-153" value="Input bilangan ke-i" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="137" y="2258" width="184" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-154" value="bilangan ke-i &gt; max" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="122" y="2492" width="213" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-155" value="max = bilangan ke-i" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2779" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-156" value="bilangan ke-i &amp;lt; min" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="126" y="2878" width="206" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-157" value="min = bilangan ke-i" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="52" y="3157" width="197" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-158" value="i = i + 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="3256" width="114" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-159" value="Tampilkan max dan min" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="2326" width="230" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-160" value="Selesai" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="431" y="2574" width="109" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-161" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-147" target="ThvgZsorsJqL3Nq1HmDI-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-162" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-148" target="ThvgZsorsJqL3Nq1HmDI-149">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-163" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-149" target="ThvgZsorsJqL3Nq1HmDI-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-164" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-150" target="ThvgZsorsJqL3Nq1HmDI-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-165" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-151" target="ThvgZsorsJqL3Nq1HmDI-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-166" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-152" target="ThvgZsorsJqL3Nq1HmDI-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="2222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-167" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-153" target="ThvgZsorsJqL3Nq1HmDI-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-168" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-154" target="ThvgZsorsJqL3Nq1HmDI-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="2742" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-169" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.19;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-155" target="ThvgZsorsJqL3Nq1HmDI-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="2853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-170" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=1;entryY=0.15;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-154" target="ThvgZsorsJqL3Nq1HmDI-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="2742" />
+              <mxPoint x="411" y="2853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-171" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-156" target="ThvgZsorsJqL3Nq1HmDI-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="3120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-172" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.28;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-157" target="ThvgZsorsJqL3Nq1HmDI-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="3231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-173" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.24;entryX=1;entryY=0.82;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-158" target="ThvgZsorsJqL3Nq1HmDI-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="3231" />
+              <mxPoint x="636" y="2222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-174" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.49;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-156" target="ThvgZsorsJqL3Nq1HmDI-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="3120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-175" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-152" target="ThvgZsorsJqL3Nq1HmDI-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThvgZsorsJqL3Nq1HmDI-176" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ThvgZsorsJqL3Nq1HmDI-159" target="ThvgZsorsJqL3Nq1HmDI-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
